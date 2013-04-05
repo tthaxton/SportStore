@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dd92a2b2-3a6b-49a3-be3a-276955162ef3" name="tthaxton@USTN8NDGRZSH1 2013-04-05 11:46:41" runUser="ALTEGRITY\tthaxton" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="76d703e1-4797-4b43-9d91-6884786e0197">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="tthaxton_USTN8NDGRZSH1 2013-04-05 11_46_41">
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\packages\Ninject.3.0.1.10\lib\net40\Ninject.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\SportStore.WebUI\bin\SportStore.WebUI.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-05T11:46:41.5825969-05:00" queuing="2013-04-05T11:46:44.6772720-05:00" start="2013-04-05T11:46:44.9736777-05:00" finish="2013-04-05T11:46:57.7035225-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="13" executed="13" error="4" failed="9" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EFProductRepositoryConstructorTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="e4bde267-11ef-c444-725e-9b08fc513255">
+      <Execution id="9f4e4731-f1fe-44b7-8c02-e1bf9d7102da" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.EFProductRepositoryTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EFProductRepositoryConstructorTest" />
+    </UnitTest>
+    <UnitTest name="AddBindingsTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="9a6ef06a-9315-f9f5-a477-288ea6486a30">
+      <DeploymentItems>
+        <DeploymentItem filename="SportStore.WebUI.dll" />
+      </DeploymentItems>
+      <Execution id="56a42206-32b8-46e9-98a9-c014a94c462c" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.NinjectControllerFactoryTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddBindingsTest" />
+      <AspNet webSiteUrl="http://localhost:61689/">
+        <Host pathToWebApp="C:\Dev\github\SportStore\SportStore\SportStore.WebUI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="Application_StartTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="63d4fa03-36d0-06e0-81dd-6d08f77a4f7b">
+      <DeploymentItems>
+        <DeploymentItem filename="SportStore.WebUI.dll" />
+      </DeploymentItems>
+      <Execution id="ce11d6ee-ab69-4d00-b035-57f256ff040e" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.MvcApplicationTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Application_StartTest" />
+      <AspNet webSiteUrl="http://localhost:61689/">
+        <Host pathToWebApp="C:\Dev\github\SportStore\SportStore\SportStore.WebUI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ListTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="19c624a8-8f27-81b7-98ef-eb7980ec8f09">
+      <Execution id="7bd0a04b-9937-4f9a-9bd2-b0e61e58396b" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.ProductControllerTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListTest" />
+      <AspNet webSiteUrl="http://localhost:61689/">
+        <Host pathToWebApp="C:\Dev\github\SportStore\SportStore\SportStore.WebUI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="GetControllerInstanceTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="58aae2a9-8fce-7baf-3366-dadfe510b77f">
+      <DeploymentItems>
+        <DeploymentItem filename="SportStore.WebUI.dll" />
+      </DeploymentItems>
+      <Execution id="34566c2d-7418-4101-9ad2-454b9e086b07" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.NinjectControllerFactoryTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetControllerInstanceTest" />
+      <AspNet webSiteUrl="http://localhost:61689/">
+        <Host pathToWebApp="C:\Dev\github\SportStore\SportStore\SportStore.WebUI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="Can_Paginate" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="94726d96-0a17-4bd5-4020-fc0ff9f30fca">
+      <Execution id="d1def1cd-d517-45dd-9405-cdc5b8f0ca31" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.ProductTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Paginate" />
+    </UnitTest>
+    <UnitTest name="MvcApplicationConstructorTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="7bf78652-40dc-5862-c55e-da925be372a3">
+      <Execution id="91fb7d7d-34d7-40bc-8751-a0f5f27f7303" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.MvcApplicationTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MvcApplicationConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:61689/">
+        <Host pathToWebApp="C:\Dev\github\SportStore\SportStore\SportStore.WebUI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="NinjectControllerFactoryConstructorTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="9e1ff3dd-a9c3-2816-50c3-bebe73f76bb5">
+      <Execution id="0c31d3b0-eb46-42d8-a511-560568bf0e22" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.NinjectControllerFactoryTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NinjectControllerFactoryConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:61689/">
+        <Host pathToWebApp="C:\Dev\github\SportStore\SportStore\SportStore.WebUI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ProductsTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="b0252268-bf6d-64ce-3624-fdcb39160771">
+      <Execution id="c09e37a8-1a66-4ba7-bc4f-2ce28efccc27" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.IProductRepositoryTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductsTest" />
+    </UnitTest>
+    <UnitTest name="ProductsTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="aecb5f46-712a-6d2b-acee-71030cdd2885">
+      <Execution id="8fa725b1-4dbc-4701-b939-8a3fcccd8f9f" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.EFProductRepositoryTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductsTest" />
+    </UnitTest>
+    <UnitTest name="RegisterGlobalFiltersTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="d392c262-528f-855b-195b-a6f2080360f5">
+      <Execution id="624d517c-b938-4ea6-a447-fdc69044060c" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.MvcApplicationTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterGlobalFiltersTest" />
+      <AspNet webSiteUrl="http://localhost:61689/">
+        <Host pathToWebApp="C:\Dev\github\SportStore\SportStore\SportStore.WebUI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ProductControllerConstructorTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="b44358db-f987-d191-0ff6-3aca4f89f711">
+      <Execution id="42839b51-75fe-4fea-aae1-0f84bf034a49" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.ProductControllerTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductControllerConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:61689/">
+        <Host pathToWebApp="C:\Dev\github\SportStore\SportStore\SportStore.WebUI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterRoutesTest" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="e31a8ae1-ad08-cc82-6cba-21db5f7ea238">
+      <Execution id="7d12a192-9f42-4b8b-9a45-e91ba3fb0572" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.MvcApplicationTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterRoutesTest" />
+      <AspNet webSiteUrl="http://localhost:61689/">
+        <Host pathToWebApp="C:\Dev\github\SportStore\SportStore\SportStore.WebUI" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="19c624a8-8f27-81b7-98ef-eb7980ec8f09" executionId="7bd0a04b-9937-4f9a-9bd2-b0e61e58396b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58aae2a9-8fce-7baf-3366-dadfe510b77f" executionId="34566c2d-7418-4101-9ad2-454b9e086b07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63d4fa03-36d0-06e0-81dd-6d08f77a4f7b" executionId="ce11d6ee-ab69-4d00-b035-57f256ff040e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bf78652-40dc-5862-c55e-da925be372a3" executionId="91fb7d7d-34d7-40bc-8751-a0f5f27f7303" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94726d96-0a17-4bd5-4020-fc0ff9f30fca" executionId="d1def1cd-d517-45dd-9405-cdc5b8f0ca31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a6ef06a-9315-f9f5-a477-288ea6486a30" executionId="56a42206-32b8-46e9-98a9-c014a94c462c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e1ff3dd-a9c3-2816-50c3-bebe73f76bb5" executionId="0c31d3b0-eb46-42d8-a511-560568bf0e22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aecb5f46-712a-6d2b-acee-71030cdd2885" executionId="8fa725b1-4dbc-4701-b939-8a3fcccd8f9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0252268-bf6d-64ce-3624-fdcb39160771" executionId="c09e37a8-1a66-4ba7-bc4f-2ce28efccc27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b44358db-f987-d191-0ff6-3aca4f89f711" executionId="42839b51-75fe-4fea-aae1-0f84bf034a49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d392c262-528f-855b-195b-a6f2080360f5" executionId="624d517c-b938-4ea6-a447-fdc69044060c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e31a8ae1-ad08-cc82-6cba-21db5f7ea238" executionId="7d12a192-9f42-4b8b-9a45-e91ba3fb0572" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4bde267-11ef-c444-725e-9b08fc513255" executionId="9f4e4731-f1fe-44b7-8c02-e1bf9d7102da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7bd0a04b-9937-4f9a-9bd2-b0e61e58396b" testId="19c624a8-8f27-81b7-98ef-eb7980ec8f09" testName="ListTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:46.5493080-05:00" endTime="2013-04-05T11:46:51.4322019-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bd0a04b-9937-4f9a-9bd2-b0e61e58396b">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:61689/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ListTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="USTN8NDGRZSH1\WebRequestResponse_ListTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="34566c2d-7418-4101-9ad2-454b9e086b07" testId="58aae2a9-8fce-7baf-3366-dadfe510b77f" testName="GetControllerInstanceTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:51.4478022-05:00" endTime="2013-04-05T11:46:51.4790028-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34566c2d-7418-4101-9ad2-454b9e086b07">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:61689/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_GetControllerInstanc.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="USTN8NDGRZSH1\WebRequestResponse_GetControllerInstanc.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="ce11d6ee-ab69-4d00-b035-57f256ff040e" testId="63d4fa03-36d0-06e0-81dd-6d08f77a4f7b" testName="Application_StartTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:51.4790028-05:00" endTime="2013-04-05T11:46:51.5102034-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce11d6ee-ab69-4d00-b035-57f256ff040e">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:61689/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_Application_StartTes.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="USTN8NDGRZSH1\WebRequestResponse_Application_StartTes.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="91fb7d7d-34d7-40bc-8751-a0f5f27f7303" testId="7bf78652-40dc-5862-c55e-da925be372a3" testName="MvcApplicationConstructorTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:51.5102034-05:00" endTime="2013-04-05T11:46:51.5414040-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91fb7d7d-34d7-40bc-8751-a0f5f27f7303">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:61689/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_MvcApplicationConstr.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="USTN8NDGRZSH1\WebRequestResponse_MvcApplicationConstr.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1def1cd-d517-45dd-9405-cdc5b8f0ca31" testId="94726d96-0a17-4bd5-4020-fc0ff9f30fca" testName="Can_Paginate" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:51.6818067-05:00" endTime="2013-04-05T11:46:53.3198382-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1def1cd-d517-45dd-9405-cdc5b8f0ca31">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Configuration system failed to initialize
+Only one &lt;configSections&gt; element allowed per config file and if present must be the first child of the root &lt;configuration&gt; element. (C:\Dev\github\SportStore\SportStore\SportStore.UnitTests\bin\Debug\SportStore.UnitTests.DLL.config line 6).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="56a42206-32b8-46e9-98a9-c014a94c462c" testId="9a6ef06a-9315-f9f5-a477-288ea6486a30" testName="AddBindingsTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:53.3354385-05:00" endTime="2013-04-05T11:46:53.3822394-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56a42206-32b8-46e9-98a9-c014a94c462c">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:61689/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_AddBindingsTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="USTN8NDGRZSH1\WebRequestResponse_AddBindingsTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="0c31d3b0-eb46-42d8-a511-560568bf0e22" testId="9e1ff3dd-a9c3-2816-50c3-bebe73f76bb5" testName="NinjectControllerFactoryConstructorTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:53.3978397-05:00" endTime="2013-04-05T11:46:53.4134400-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c31d3b0-eb46-42d8-a511-560568bf0e22">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:61689/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_NinjectControllerFac.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="USTN8NDGRZSH1\WebRequestResponse_NinjectControllerFac.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="8fa725b1-4dbc-4701-b939-8a3fcccd8f9f" testId="aecb5f46-712a-6d2b-acee-71030cdd2885" testName="ProductsTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:53.4290403-05:00" endTime="2013-04-05T11:46:54.8174670-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fa725b1-4dbc-4701-b939-8a3fcccd8f9f">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Configuration system failed to initialize
+Only one &lt;configSections&gt; element allowed per config file and if present must be the first child of the root &lt;configuration&gt; element. (C:\Dev\github\SportStore\SportStore\SportStore.UnitTests\bin\Debug\SportStore.UnitTests.DLL.config line 6).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c09e37a8-1a66-4ba7-bc4f-2ce28efccc27" testId="b0252268-bf6d-64ce-3624-fdcb39160771" testName="ProductsTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:54.8330673-05:00" endTime="2013-04-05T11:46:56.1590928-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c09e37a8-1a66-4ba7-bc4f-2ce28efccc27">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Configuration system failed to initialize
+Only one &lt;configSections&gt; element allowed per config file and if present must be the first child of the root &lt;configuration&gt; element. (C:\Dev\github\SportStore\SportStore\SportStore.UnitTests\bin\Debug\SportStore.UnitTests.DLL.config line 6).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="42839b51-75fe-4fea-aae1-0f84bf034a49" testId="b44358db-f987-d191-0ff6-3aca4f89f711" testName="ProductControllerConstructorTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:56.1746931-05:00" endTime="2013-04-05T11:46:56.2058937-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42839b51-75fe-4fea-aae1-0f84bf034a49">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:61689/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ProductControllerCon.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="USTN8NDGRZSH1\WebRequestResponse_ProductControllerCon.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="624d517c-b938-4ea6-a447-fdc69044060c" testId="d392c262-528f-855b-195b-a6f2080360f5" testName="RegisterGlobalFiltersTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:56.2214940-05:00" endTime="2013-04-05T11:46:56.2526946-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="624d517c-b938-4ea6-a447-fdc69044060c">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:61689/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RegisterGlobalFilter.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="USTN8NDGRZSH1\WebRequestResponse_RegisterGlobalFilter.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="7d12a192-9f42-4b8b-9a45-e91ba3fb0572" testId="e31a8ae1-ad08-cc82-6cba-21db5f7ea238" testName="RegisterRoutesTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:56.2682949-05:00" endTime="2013-04-05T11:46:56.2838952-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d12a192-9f42-4b8b-9a45-e91ba3fb0572">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:61689/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_RegisterRoutesTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="USTN8NDGRZSH1\WebRequestResponse_RegisterRoutesTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="9f4e4731-f1fe-44b7-8c02-e1bf9d7102da" testId="e4bde267-11ef-c444-725e-9b08fc513255" testName="EFProductRepositoryConstructorTest" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:46:56.2994955-05:00" endTime="2013-04-05T11:46:57.6255210-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f4e4731-f1fe-44b7-8c02-e1bf9d7102da">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Configuration system failed to initialize
+Only one &lt;configSections&gt; element allowed per config file and if present must be the first child of the root &lt;configuration&gt; element. (C:\Dev\github\SportStore\SportStore\SportStore.UnitTests\bin\Debug\SportStore.UnitTests.DLL.config line 6).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

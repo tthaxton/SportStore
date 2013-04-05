@@ -1,0 +1,17 @@
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\SportStore.UnitTest.dll
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\SportStore.UnitTest.pdb
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\EntityFramework.dll
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\Moq.dll
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\Ninject.dll
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\SportStore.Domain.dll
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\SportStore.WebUI.dll
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\SportStore.Domain.pdb
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\SportStore.WebUI.pdb
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\EntityFramework.xml
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\Moq.pdb
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\Moq.xml
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\Ninject.pdb
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\bin\Debug\Ninject.xml
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\obj\Debug\SportStore.UnitTest.dll
+C:\Dev\github\SportStore\SportStore\SportStore.UnitTest\obj\Debug\SportStore.UnitTest.pdb

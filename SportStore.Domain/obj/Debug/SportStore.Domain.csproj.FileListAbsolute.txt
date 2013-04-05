@@ -1,0 +1,14 @@
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll.config
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.pdb
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\EntityFramework.dll
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\Moq.dll
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\Ninject.dll
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\EntityFramework.xml
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\Moq.pdb
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\Moq.xml
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\Ninject.pdb
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\Ninject.xml
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\obj\Debug\SportStore.Domain.dll
+C:\Dev\github\SportStore\SportStore\SportStore.Domain\obj\Debug\SportStore.Domain.pdb

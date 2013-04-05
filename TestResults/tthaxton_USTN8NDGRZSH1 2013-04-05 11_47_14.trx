@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2579392b-01ba-410e-b8f3-513b898082f9" name="tthaxton@USTN8NDGRZSH1 2013-04-05 11:47:14" runUser="ALTEGRITY\tthaxton" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="76d703e1-4797-4b43-9d91-6884786e0197">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="tthaxton_USTN8NDGRZSH1 2013-04-05 11_47_14">
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\packages\Ninject.3.0.1.10\lib\net40\Ninject.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\SportStore.WebUI\bin\SportStore.WebUI.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-05T11:47:14.7078495-05:00" queuing="2013-04-05T11:47:15.0666564-05:00" start="2013-04-05T11:47:15.1134573-05:00" finish="2013-04-05T11:47:15.3786624-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Paginate" storage="c:\dev\github\sportstore\sportstore\sportstore.unittests\bin\debug\sportstore.unittests.dll" id="94726d96-0a17-4bd5-4020-fc0ff9f30fca">
+      <Execution id="9beb63e4-ec62-4bb8-9748-9ceed0020ec2" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTests/bin/Debug/SportStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTests.ProductTest, SportStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Paginate" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="94726d96-0a17-4bd5-4020-fc0ff9f30fca" executionId="9beb63e4-ec62-4bb8-9748-9ceed0020ec2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9beb63e4-ec62-4bb8-9748-9ceed0020ec2" testId="94726d96-0a17-4bd5-4020-fc0ff9f30fca" testName="Can_Paginate" computerName="USTN8NDGRZSH1" startTime="2013-04-05T11:47:15.1290576-05:00" endTime="2013-04-05T11:47:15.3318615-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9beb63e4-ec62-4bb8-9748-9ceed0020ec2">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+The type initializer for 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' threw an exception.
+Configuration system failed to initialize
+Only one &lt;configSections&gt; element allowed per config file and if present must be the first child of the root &lt;configuration&gt; element. (C:\Dev\github\SportStore\SportStore\SportStore.UnitTests\bin\Debug\SportStore.UnitTests.DLL.config line 6).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
