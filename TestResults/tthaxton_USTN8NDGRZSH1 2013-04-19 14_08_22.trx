@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="02dc19df-f32c-40bb-a923-4a59796539c4" name="tthaxton@USTN8NDGRZSH1 2013-04-19 14:08:22" runUser="ALTEGRITY\tthaxton" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="76d703e1-4797-4b43-9d91-6884786e0197">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="tthaxton_USTN8NDGRZSH1 2013-04-19 14_08_22">
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\packages\Ninject.3.0.1.10\lib\net40\Ninject.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Dev\github\SportStore\SportStore\SportStore.WebUI\bin\SportStore.WebUI.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-19T14:08:22.8294062-05:00" queuing="2013-04-19T14:08:24.5213012-05:00" start="2013-04-19T14:08:24.6513012-05:00" finish="2013-04-19T14:09:08.7903052-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="USTN8NDGRZSH1" outcome="Error" timestamp="2013-04-19T14:09:08.7403087-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Send_Pagination_View_Model" storage="c:\dev\github\sportstore\sportstore\sportstore.unittest\bin\debug\sportstore.unittest.dll" id="afaa13b0-52db-58ec-13c6-cdf07ece5015">
+      <Execution id="8b02e35e-4aa5-4f01-b38d-0cd662dadbdd" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTest/bin/Debug/SportStore.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTest.ProductControllerTest, SportStore.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Send_Pagination_View_Model" />
+    </UnitTest>
+    <UnitTest name="Can_Filter_Products" storage="c:\dev\github\sportstore\sportstore\sportstore.unittest\bin\debug\sportstore.unittest.dll" id="5d1a86f3-6fdd-0eee-19b0-0d7d3f3def2b">
+      <Execution id="6998a20f-dae5-44bf-8681-846328c60c52" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTest/bin/Debug/SportStore.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTest.ProductControllerTest, SportStore.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Filter_Products" />
+    </UnitTest>
+    <UnitTest name="Can_Paginate" storage="c:\dev\github\sportstore\sportstore\sportstore.unittest\bin\debug\sportstore.unittest.dll" id="0cbb6d0a-f63c-028f-4097-9cf17748254d">
+      <Execution id="494394ce-e06f-4b53-ac5f-b50918970b18" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTest/bin/Debug/SportStore.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTest.ProductControllerTest, SportStore.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Paginate" />
+    </UnitTest>
+    <UnitTest name="Can_Generate_Page_Links" storage="c:\dev\github\sportstore\sportstore\sportstore.unittest\bin\debug\sportstore.unittest.dll" id="05e5c29d-6ef2-c521-deca-afc6e402b99d">
+      <Execution id="13d27364-7efe-49f8-aabc-133682b3037c" />
+      <TestMethod codeBase="C:/Dev/github/SportStore/SportStore/SportStore.UnitTest/bin/Debug/SportStore.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportStore.UnitTest.ProductControllerTest, SportStore.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Generate_Page_Links" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="05e5c29d-6ef2-c521-deca-afc6e402b99d" executionId="13d27364-7efe-49f8-aabc-133682b3037c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0cbb6d0a-f63c-028f-4097-9cf17748254d" executionId="494394ce-e06f-4b53-ac5f-b50918970b18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d1a86f3-6fdd-0eee-19b0-0d7d3f3def2b" executionId="6998a20f-dae5-44bf-8681-846328c60c52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afaa13b0-52db-58ec-13c6-cdf07ece5015" executionId="8b02e35e-4aa5-4f01-b38d-0cd662dadbdd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="13d27364-7efe-49f8-aabc-133682b3037c" testId="05e5c29d-6ef2-c521-deca-afc6e402b99d" testName="Can_Generate_Page_Links" computerName="USTN8NDGRZSH1" duration="00:00:44.0780040" startTime="2013-04-19T14:08:24.7123012-05:00" endTime="2013-04-19T14:09:08.7903052-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13d27364-7efe-49f8-aabc-133682b3037c">
+    </UnitTestResult>
+    <UnitTestResult executionId="494394ce-e06f-4b53-ac5f-b50918970b18" testId="0cbb6d0a-f63c-028f-4097-9cf17748254d" testName="Can_Paginate" computerName="USTN8NDGRZSH1" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="494394ce-e06f-4b53-ac5f-b50918970b18">
+    </UnitTestResult>
+    <UnitTestResult executionId="6998a20f-dae5-44bf-8681-846328c60c52" testId="5d1a86f3-6fdd-0eee-19b0-0d7d3f3def2b" testName="Can_Filter_Products" computerName="USTN8NDGRZSH1" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6998a20f-dae5-44bf-8681-846328c60c52">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b02e35e-4aa5-4f01-b38d-0cd662dadbdd" testId="afaa13b0-52db-58ec-13c6-cdf07ece5015" testName="Can_Send_Pagination_View_Model" computerName="USTN8NDGRZSH1" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b02e35e-4aa5-4f01-b38d-0cd662dadbdd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

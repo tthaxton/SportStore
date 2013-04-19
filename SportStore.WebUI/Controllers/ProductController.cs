@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Web;
 using System.Linq;
 using System.Web.Mvc;
@@ -7,23 +8,25 @@ using SportStore.Domain.Abstract;
 using SportStore.Domain.Entities;
 using SportStore.WebUI.Models;
 
+
 namespace SportStore.WebUI.Controllers
 {
     public class ProductController : Controller
     {
-        public int PageSize = 4; 
         private IProductRepository repository;
-
+        public int PageSize = 4; 
+        
         public ProductController(IProductRepository productsRepository) 
         {
             repository = productsRepository;
         }
 
-        public ViewResult List(int page = 1)
+        public ViewResult List(string category, int page = 1)
         {
             ProductsListViewModel viewModel = new ProductsListViewModel
             {
                 Products = repository.Products
+                .Where(p => category == null || p.Category == category)
                 .OrderBy(p => p.ProductID)
                 .Skip((page - 1) * PageSize)
                 .Take(PageSize),
@@ -31,8 +34,9 @@ namespace SportStore.WebUI.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
-                    TotalItems = repository.Products.Count()
-                }
+                    TotalItems = repository.Products.Count(),
+                },
+                CurrentCategory = category
             };
             return View(viewModel);
         }
